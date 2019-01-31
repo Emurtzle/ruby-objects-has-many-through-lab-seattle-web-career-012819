@@ -15,6 +15,7 @@ class Patient
   def new_appointment(doctor, date)
     apt = doctor.new_appointment(self, date)
     @appointments << apt
+    apt
   end
 
 
